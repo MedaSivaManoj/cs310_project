@@ -146,12 +146,7 @@ Exiting shell... Goodbye!
 | Failed pipe execution | `Pipe could not be initialized` |
 | Wrong help argument | `Unknown help topic. Try: help` |
 
-## 📘 Tips for Demo / Viva
-You can highlight:
-- Use of `fork`, `execvp`, `pipe`, `dup2`, and `wait`
-- Directory abstraction prevents user data damage
-- History persistence is implemented manually rather than relying only on readline
-- Profile architecture makes project modular and expandable
+
 
 ## 🔚 Conclusion
 This custom Linux shell extends traditional terminal functionality by introducing **profile-based environments, automated file operations, persistent command history, pipe and conditional execution operators, and customizable prompts**. These enhancements make the shell more interactive, user-oriented, and practical compared to a basic CLI.
